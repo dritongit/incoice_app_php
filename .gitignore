@@ -1,0 +1,9 @@
+
+# Ignore macOS system file
+.DS_Store
+
+# Ignore Composer lock file (optional)
+composer.lock
+
+# Ignore the vendor directory (installed dependencies)
+vendor/
