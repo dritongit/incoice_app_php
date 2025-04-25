@@ -33,7 +33,7 @@ Router::add("PUT", "/article_update/{id}", [$articleController, "updateArticle"]
 
 Router::add('GET', '/test', function () {
     echo json_encode(["message" => "API is working"]);
-}, [Middleware::class, "checkAuth"]);
+});
 
 Router::dispatch($method, $uri);
 ?>
